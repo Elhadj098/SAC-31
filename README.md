@@ -25,7 +25,6 @@ Le système est composé de trois blocs interconnectés :
 3.  **Bloc Effecteur (Arduino Uno) :** Reçoit la commande du Raspberry et pilote des LEDs.
 
 ![Schéma Électrique](schema_electrique.png)
-*(Pense à uploader ton image de schéma dans le dépôt et à mettre le lien ici)*
 
 ---
 
