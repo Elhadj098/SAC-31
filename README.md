@@ -24,7 +24,7 @@ Le système est composé de trois blocs interconnectés :
 2.  **Bloc Supervision (Raspberry Pi) :** Reçoit les données, affiche l'état sur un écran LCD Grove (I2C) et relaye la commande.
 3.  **Bloc Effecteur (Arduino Uno) :** Reçoit la commande du Raspberry et pilote des LEDs.
 
-![Schéma Électrique](chemin_vers_ton_image_schema.png)
+![Schéma Électrique](schema_electrique.png)
 *(Pense à uploader ton image de schéma dans le dépôt et à mettre le lien ici)*
 
 ---
