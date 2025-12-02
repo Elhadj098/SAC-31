@@ -1,4 +1,4 @@
-# 📡 SAC31 - Liaison Série Inter-Systèmes (Arduino & Raspberry Pi)
+#  SAC31 - Liaison Série Inter-Systèmes (Arduino & Raspberry Pi)
 
 Ce projet réalise une chaîne complète d'acquisition, de supervision et de commande distribuée entre trois unités de traitement. Il met en œuvre des protocoles de communication série (UART) et I2C, ainsi que l'adaptation de niveaux logiques entre des systèmes 3.3V et 5V.
 
@@ -6,7 +6,7 @@ Ce projet réalise une chaîne complète d'acquisition, de supervision et de com
 
 ---
 
-## 👥 Auteurs
+## Auteurs
 * **Elhadji FALL**
 * **Aliou DIALLO**
 * **Mame Diarra FALL**
@@ -16,7 +16,7 @@ Ce projet réalise une chaîne complète d'acquisition, de supervision et de com
 
 ---
 
-## 🛠️ Architecture du Système
+##  Architecture du Système
 
 Le système est composé de trois blocs interconnectés :
 
@@ -28,7 +28,7 @@ Le système est composé de trois blocs interconnectés :
 
 ---
 
-## 🔌 Matériel Requis
+##  Matériel Requis
 
 * 2x Arduino Uno
 * 1x Raspberry Pi (3 ou 4)
@@ -41,7 +41,7 @@ Le système est composé de trois blocs interconnectés :
 
 ---
 
-## ⚙️ Fonctionnement Logique
+##  Fonctionnement Logique
 
 Le Raspberry Pi agit comme un "Hub". Voici la table de vérité du système :
 
@@ -54,7 +54,7 @@ Le Raspberry Pi agit comme un "Hub". Voici la table de vérité du système :
 
 ---
 
-## 💻 Installation et Utilisation
+##  Installation et Utilisation
 
 ### 1. Arduino Émetteur (Dossier `Arduino_TX`)
 * Ouvrir le fichier `.ino` avec l'IDE Arduino.
@@ -79,7 +79,7 @@ Le Raspberry Pi agit comme un "Hub". Voici la table de vérité du système :
 
 ---
 
-## ⚠️ Spécificités Techniques
+## Spécificités Techniques
 
 ### Adaptation de Tension (5V → 3.3V)
 Pour protéger le RX du Raspberry Pi des signaux 5V de l'Arduino émetteur, un **pont diviseur de tension** est utilisé :
@@ -96,5 +96,5 @@ L'adaptation vers l'Arduino récepteur utilise un transistor NPN en montage éme
 
 ---
 
-## 📝 Licence
+##  Licence
 Projet académique réalisé dans le cadre du module SAC31.
